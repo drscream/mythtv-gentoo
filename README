@@ -9,7 +9,7 @@ subfolders as overlays.
 
 Instructions
 ------------
-1. Add the url for the mythtv-gentoo-overlay.xml to your layman.cfg file
+1. Add the url [2] for the mythtv-gentoo-overlay.xml to your layman.cfg file
 2. Run layman -Lk to update the layman list of overlays
 3. Add the mythtv-gentoo.github.com overlay via layman -a mythtv-gentoo
 4. Thats it! If you use eix, run eix-update :-)
@@ -20,3 +20,4 @@ Thanks for kormoc that build all the ebuilds in this repository :-)
 
 
 [1] https://github.com/MythTV/packaging/tree/master/Gentoo
+[2] https://github.com/drscream/mythtv-gentoo/raw/master/mythtv-gentoo-overlay.xml
