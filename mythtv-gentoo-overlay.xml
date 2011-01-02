@@ -1,0 +1,12 @@
+<?xml version="1.0" ?>
+<layman>
+	<overlay
+		type = "git"
+		src	= "git://github.com/drscream/mythtv-gentoo"
+		contact = "gentoo@frubar.net"
+		name = "mythtv-gentoo">
+
+		<description>mythtv :: gentoo overlay</description>
+		<link>https://github.com/drscream/mythtv-gentoo</link>
+	</overlay>
+</layman>

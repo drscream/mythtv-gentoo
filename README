@@ -1,0 +1,22 @@
+README
+======
+
+Information
+-----------
+This is a gentoo overlay for mythTV. It is only a copy of the other mythTV 
+github account [1], that is created because of layman or git doesn't allow
+subfolders as overlays.
+
+Instructions
+------------
+1. Add the url for the mythtv-gentoo-overlay.xml to your layman.cfg file
+2. Run layman -Lk to update the layman list of overlays
+3. Add the mythtv-gentoo.github.com overlay via layman -a mythtv-gentoo
+4. Thats it! If you use eix, run eix-update :-)
+
+Thanks
+------
+Thanks for kormoc that build all the ebuilds in this repository :-)
+
+
+[1] https://github.com/MythTV/packaging/tree/master/Gentoo
